@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="kz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мен жайлы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .bio {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .personal-info, .education, .experience, .skills {
+            margin-bottom: 20px;
+        }
+        .personal-info ul, .education ul, .experience ul, .skills ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .personal-info li, .education li, .experience li, .skills li {
+            margin-bottom: 10px;
+        }
+
+        /* Новый стиль для квадратного изображения */
+        .header-image {
+            width: 250px; /* Уменьшенный размер */
+            height: 250px; /* Сделаем изображение квадратным */
+            object-fit: cover;
+            border-radius: 50%; /* Круглый вид, если хотите */
+            margin: 0 auto; /* Центрирование изображения */
+        }
+
+        .header-container {
+            text-align: center;
+        }
+
+        /* Стиль для текста под изображением */
+        .floating-text {
+            font-size: 2rem;
+            color: #4CAF50;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <!-- Квадратное изображение, уменьшенное до 250px -->
+            <img class="header-image" src="https://i.postimg.cc/gJGHLvyg/Whats-App-Image-2025-02-27-at-20-30-32.jpg" alt="Фото">
+            <!-- Текст под изображением -->
+            <div class="floating-text">Мен жайлы</div>
+        </div>
+    </header>
+
+    <section>
+        <h2>Жеке Мәлеметтер</h2>
+        <div class="personal-info">
+            <ul>
+                <li><strong>Аты-жөні:</strong> Орынбек Дидара</li>
+                <li><strong>Туған күні:</strong> 2006 жыл 31 наурыз</li>
+                <li><strong>Туған жері:</strong> Астана, Қазақстан</li>
+                <li><strong>Электрондық пошта:</strong> orynbek.didara@mail.com</li>
+                <li><strong>Телефон:</strong> +7 434 355 5554</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Білім</h2>
+        <div class="education">
+            <ul>
+                <li><strong>оқу орным:</strong> Қазақ Ұлттық Университеті (ҚазҰУ), Өнер және дизайн факультеті, Өнеркәсіптік дизайн бакалавры</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Жұмыс Тәжірибесі</h2>
+        <div class="experience">
+            <ul>
+                <li><strong>2025-Қазіргі уақытқа дейін:</strong> Дизайнер окушысы</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Қабілеттер</h2>
+        <div class="skills">
+            <ul>
+                <li>Adobe Photoshop, Illustrator, AutoCAD</li>
+                <li>Өнеркәсіптік дизайн және өнімдер жасау</li>
+                <li>Креативті ойлау және командамен жұмыс істеу</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Қысқаша Өмірбаяны</h2>
+        <div class="bio">
+            <p>Мен Орынбек Дидара, Астана қаласында туып өстім. 2023 жылы Қазақ Ұлттық Университетіне өнеркәсіптік дизайн мамандығы бойынша оқуға түстім. Оқуға қабылданғаннан кейін, дизайнер ретінде жұмыс тәжірибесін жинақтай бастадым. Менің қызығушылықтарым — жаңа өнімдер мен дизайн шешімдерін жасау, креативті және функционалды дизайнды үйлестіру.</p>
+        </div>
+    </section>
+
+</body>
+</html>
